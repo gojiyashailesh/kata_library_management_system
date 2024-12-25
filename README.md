@@ -46,8 +46,8 @@ The purpose of this project is to design and implement a **Library Management Sy
 ## 💻 **How to Run**
 ### 1️⃣ **Clone the Repository**
 ```bash
-git clone https://github.com/gojiyashailesh/library_management_system.git
-cd library-management-system
+git clone https://github.com/gojiyashailesh/kata_library_management_system.git
+cd kata_library-management-system
 ```
 
 ### 2️⃣ **Setup Virtual Environment**
@@ -69,7 +69,7 @@ python menu.py
 
 ### 5️⃣ **Execute Test Cases**
 ```bash
-pytest tests/ --html=test_report.html --self-contained-html
+pytest tests/ --html=test_report.html
 ```
 
 ### 6️⃣ **View Test Report**
