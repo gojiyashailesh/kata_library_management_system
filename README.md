@@ -1,4 +1,4 @@
-# ![Library Management System](assets\20241225_231048.png)
+# ![Library Management System](assests/20241225_231048.png)
 
 
 # ***Kata Library Management System***
