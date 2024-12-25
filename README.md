@@ -1,4 +1,4 @@
-# ![Library Management System](https://github.com/gojiyashailesh/kata_library_management_system/blob/main/assets/20241225_231048.png)
+# ![Library Management System](https://github.com/gojiyashailesh/kata_library_management_system/blob/main/assets/20241225_235200.png)
 
 
 # ***Kata Library Management System***
