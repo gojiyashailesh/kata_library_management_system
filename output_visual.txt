@@ -1,10 +1,156 @@
-colorama==0.4.6
-coverage==7.6.1
-iniconfig==2.0.0
-packaging==24.1
-pluggy==1.5.0
-prettytable==3.10.2
-pytest==8.3.2
-pytest-cov==5.0.0
-wcwidth==0.2.13
-pytest-html
+╔═══════════════════════════════╗
+║   Library Management System   ║
+╠═══════════════════════════════╣
+║ 1. Add Book                   ║
+║ 2. Borrow Book                ║
+║ 3. Return Book                ║
+║ 4. View Available Books       ║
+║ 5. Exit                       ║
+╚═══════════════════════════════╝
+Enter your choice: 1
+Enter ISBN: 1234568791011
+Enter Title: 48 Laws of Power
+Enter Author: Robert Greene 
+Enter Publication Year: 1998
+Book '48 Laws of Power' added successfully.
+
+╔═══════════════════════════════╗
+║   Library Management System   ║
+╠═══════════════════════════════╣
+║ 1. Add Book                   ║
+║ 2. Borrow Book                ║
+║ 3. Return Book                ║
+║ 4. View Available Books       ║
+║ 5. Exit                       ║
+╚═══════════════════════════════╝
+Enter your choice: 4
+
+Available Books:
+╔═══════════════╦══════════════════╦═══════════════╦══════╗
+║ ISBN          ║ Title            ║ Author        ║ Year ║
+╠═══════════════╬══════════════════╬═══════════════╬══════╣
+║ 1234568791011 ║ 48 Laws of Power ║ Robert Greene ║ 1998 ║
+╚═══════════════╩══════════════════╩═══════════════╩══════╝
+
+╔═══════════════════════════════╗
+║   Library Management System   ║
+╠═══════════════════════════════╣
+║ 1. Add Book                   ║
+║ 2. Borrow Book                ║
+║ 3. Return Book                ║
+║ 4. View Available Books       ║
+║ 5. Exit                       ║
+╚═══════════════════════════════╝
+Enter your choice: 1
+Enter ISBN: 1232343454565
+Enter Title: The Psycology of Money
+Enter Author: Morgan Housel
+Enter Publication Year: 2020
+Book 'The Psycology of Money' added successfully.
+
+╔═══════════════════════════════╗
+║   Library Management System   ║
+╠═══════════════════════════════╣
+║ 1. Add Book                   ║
+║ 2. Borrow Book                ║
+║ 3. Return Book                ║
+║ 4. View Available Books       ║
+║ 5. Exit                       ║
+╚═══════════════════════════════╝
+Enter your choice: 4
+
+Available Books:
+╔═══════════════╦════════════════════════╦═══════════════╦══════╗
+║ ISBN          ║ Title                  ║ Author        ║ Year ║
+╠═══════════════╬════════════════════════╬═══════════════╬══════╣
+║ 1234568791011 ║ 48 Laws of Power       ║ Robert Greene ║ 1998 ║
+║ 1232343454565 ║ The Psycology of Money ║ Morgan Housel ║ 2020 ║
+╚═══════════════╩════════════════════════╩═══════════════╩══════╝
+
+╔═══════════════════════════════╗
+║   Library Management System   ║
+╠═══════════════════════════════╣
+║ 1. Add Book                   ║
+║ 2. Borrow Book                ║
+║ 3. Return Book                ║
+║ 4. View Available Books       ║
+║ 5. Exit                       ║
+╚═══════════════════════════════╝
+Enter your choice: 2
+Enter ISBN of the book to borrow: 1232343454565
+Book borrowed successfully.
+
+╔═══════════════════════════════╗
+║   Library Management System   ║
+╠═══════════════════════════════╣
+║ 1. Add Book                   ║
+║ 2. Borrow Book                ║
+║ 3. Return Book                ║
+║ 4. View Available Books       ║
+║ 5. Exit                       ║
+╚═══════════════════════════════╝
+Enter your choice: 4
+
+Available Books:
+╔═══════════════╦══════════════════╦═══════════════╦══════╗
+║ ISBN          ║ Title            ║ Author        ║ Year ║
+╠═══════════════╬══════════════════╬═══════════════╬══════╣
+║ 1234568791011 ║ 48 Laws of Power ║ Robert Greene ║ 1998 ║
+╚═══════════════╩══════════════════╩═══════════════╩══════╝
+
+╔═══════════════════════════════╗
+║   Library Management System   ║
+╠═══════════════════════════════╣
+║ 1. Add Book                   ║
+║ 2. Borrow Book                ║
+║ 3. Return Book                ║
+║ 4. View Available Books       ║
+║ 5. Exit                       ║
+╚═══════════════════════════════╝
+Enter your choice: 2
+Enter ISBN of the book to borrow: 1232343454565
+Error: The book 'The Psycology of Money' is already borrowed.
+
+╔═══════════════════════════════╗
+║   Library Management System   ║
+╠═══════════════════════════════╣
+║ 1. Add Book                   ║
+║ 2. Borrow Book                ║
+║ 3. Return Book                ║
+║ 4. View Available Books       ║
+║ 5. Exit                       ║
+╚═══════════════════════════════╝
+Enter your choice: 3
+Enter ISBN of the book to return: 1232343454565
+Book returned successfully.
+
+╔═══════════════════════════════╗
+║   Library Management System   ║
+╠═══════════════════════════════╣
+║ 1. Add Book                   ║
+║ 2. Borrow Book                ║
+║ 3. Return Book                ║
+║ 4. View Available Books       ║
+║ 5. Exit                       ║
+╚═══════════════════════════════╝
+Enter your choice: 4
+
+Available Books:
+╔═══════════════╦════════════════════════╦═══════════════╦══════╗
+║ ISBN          ║ Title                  ║ Author        ║ Year ║
+╠═══════════════╬════════════════════════╬═══════════════╬══════╣
+║ 1234568791011 ║ 48 Laws of Power       ║ Robert Greene ║ 1998 ║
+║ 1232343454565 ║ The Psycology of Money ║ Morgan Housel ║ 2020 ║
+╚═══════════════╩════════════════════════╩═══════════════╩══════╝
+
+╔═══════════════════════════════╗
+║   Library Management System   ║
+╠═══════════════════════════════╣
+║ 1. Add Book                   ║
+║ 2. Borrow Book                ║
+║ 3. Return Book                ║
+║ 4. View Available Books       ║
+║ 5. Exit                       ║
+╚═══════════════════════════════╝
+Enter your choice: 5
+Exiting the system. Goodbye!
