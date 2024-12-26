@@ -47,7 +47,7 @@ The purpose of this project is to design and implement a **Library Management Sy
 ### 1️⃣ **Clone the Repository**
 ```bash
 git clone https://github.com/gojiyashailesh/kata_library_management_system.git
-cd kata_library-management-system
+cd kata_library_management_system
 ```
 
 ### 2️⃣ **Setup Virtual Environment**
@@ -60,6 +60,7 @@ venv\Scripts\activate     #Windows
 ### 3️⃣ **Install Dependencies**
 ```bash
 pip install -r requirements.txt
+python -m pip install -r requirements.txt #if first command not works
 ```
 
 ### 4️⃣ **Run the Application**
